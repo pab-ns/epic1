@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,84 +10,87 @@
     <script src="js/menu.js" defer></script>
     <script src="js/carousel.js" defer></script>
 
-    <title>epic 1</title>
+    <title>EPiC Innovation 1</title>
 
 </head>
 <body class="">
     <!-- NAV container -->
-    <nav class="relative container mx-auto p-6">
-        <!-- flex container for all items -->
-         <div class="flex itmes-center justify-between">
-            <!-- flex container for logo/menu-->
-             <div class="flex items-center space-x-20">
-                <!-- logo -->
-                 <a href="">
-                 <img src="images/logo-colour.svg" alt="" class="h-6">
-                 <!-- left menu -->
-                  <div class="hidden lg:flex space-x-8 text-base">
+<nav class="relative container mx-auto p-6">
+  <!-- flex container for all items -->
+   <div class="flex itmes-center justify-between">
+      <!-- flex container for logo/menu-->
+       <div class="flex items-center space-x-20">
+          <!-- logo -->
+           <a href="https://pab-ns.github.io/epic/">
+           <img src="https://pab-ns.github.io/epic/images/logo-colour.svg" alt="" class="h-6">
+          </a>
+           <!-- left menu -->
+            <div class="hidden lg:flex space-x-8 text-base">
 
-                    <!-- dropdown WHAT -->
-                    <div class="relative inline-block group" id="dropdown-wrapper"> 
-                        <!-- menu item  -->
-                         <div class="inline-flex items-center space-x-1 text-epicBlue hover:text-epiclightBlue group-focus:bg-epiclightBlue" id="dropdown-toggle">
-                          <span>What We Do</span>
-                          <!-- <img src="images/icon-arrow.svg" alt="" width="10" class="-rotate-90" id="arrow-icon"> -->
-                          <svg width="12px" height="8px" class="-rotate-90" id="arrow-icon">
-                            <path
-                              fill="none"
-                              stroke="currentColor"
-                              stroke-width="2"
-                              d="M1 1 L6 6 L11 1"
-                            />
-                          </svg>
+              <!-- dropdown WHAT -->
+              <div class="relative inline-block group z-10" id="dropdown-wrapper"> 
+                  <!-- menu item  -->
+                   <div class="inline-flex items-center space-x-1 text-epicBlue hover:text-epiclightBlue group-focus:bg-epiclightBlue" id="dropdown-toggle">
+                    <a href="#">What We Do</a>
+                    <svg width="12px" height="8px" class="-rotate-90" id="arrow-icon">
+                      <path
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        d="M1 1 L6 6 L11 1"
+                      />
+                    </svg>
 
-                         </div>
-                      <!-- dropdown menu -->
-                      <ul id="dropdown-menu" class="absolute left-0 mt-2 w-60 p-5 bg-white rounded-sm shadow-lg hidden">
-                        <li><a href="#" class="block px-4 py-2 text-epicBlue hover:text-epiclightBlue">EPiC Academy</a></li>
-                        <li><a href="#" class="block px-4 py-2 text-epicBlue hover:text-epiclightBlue">EPiC Masterclasses</a></li>
-                        <li><a href="#" class="block px-4 py-2 text-epicBlue hover:text-epiclightBlue">EPiC Accelerators</a></li>
-                        <li><a href="#" class="block px-4 py-2 text-epicBlue hover:text-epiclightBlue">EPiC Ways of Working</a></li>
-                      </ul>
-                    </div>
-                    <a href="#" class="text-epicBlue hover:text-epiclightBlue">What We've Done</a>
-                    <a href="#" class="text-epicBlue hover:text-epiclightBlue">Why We Do It</a>
-                    <a href="#" class="text-epicBlue hover:text-epiclightBlue">Who We Are</a>
-                    <a href="#" class="text-epicBlue hover:text-epiclightBlue">Certified Training</a>
-                  </div>
-             </div>
-             <!-- right button -->
-              <div class="hidden lg:flex items-center space-x-6">
-                <!-- <a href="" class="px-7 py-3  text-xs font-bold tracking-wide uppercase text-white bg-epicGreen rounded-full hover:opacity-70">Let's Talk</a> -->
-                <button class="bg-epicGreen hover:bg-epicOrange transition-all duration-200 text-white py-3 px-7 rounded-full text-xs font-bold uppercase items-center">
-                    <span>Let's Talk</span>
-                  </button>
+                   </div>
+                <!-- dropdown menu -->
+                <ul id="dropdown-menu" class="absolute left-0 mt-2 w-60 p-5 bg-white rounded-sm shadow-lg hidden">
+                  <li><a href="https://pab-ns.github.io/epic/academy/" class="block px-4 py-2 text-epicBlue hover:text-epiclightBlue">EPiC Academy</a></li>
+                  <li><a href="https://pab-ns.github.io/epic/masterclasses/" class="block px-4 py-2 text-epicBlue hover:text-epiclightBlue">EPiC Masterclasses</a></li>
+                  <li><a href="#" class="block px-4 py-2 text-epicBlue hover:text-epiclightBlue opacity-15">EPiC Accelerators</a></li>
+                  <li><a href="#" class="block px-4 py-2 text-epicBlue hover:text-epiclightBlue opacity-15">EPiC Ways of Working</a></li>
+
+
+                </ul>
               </div>
-
-              <!-- HAMBURGER ICON BUTTON -->
-               <button class="block hamburger lg:hidden focus:outlines-none" id="menu-btn" type="button">
-                   <span class="hamburger-top"></span>
-                   <span class="hamburger-middle"></span>
-                   <span class="hamburger-bottom"></span>
-               </button>
-
-         </div>
-         <!-- MOBILE MENU -->
-          <div id="menu" class="absolute hidden p-6 rounded-md bg-epicBlue left-6 right-6 top-20 z-100">
-            <div class="flex flex-col items-center justify-center w-full space-y-6 text-white text-base font-light">
-               <a href="#" class="w-full text-center text-sm opacity-50">What We Do</a>
-               <a href="#" class="w-full text-center">EPiC Academy</a>
-               <a href="#" class="w-full text-center">EPiC Masterclasses</a>
-               <a href="#" class="w-full text-center">EPiC Accelerators</a>
-               <a href="#" class="w-full text-center">EPiC Ways of Working</a>
-               <a href="#" class="w-full pt-6 border-t border-gray-400 text-center">What We've Done</a>
-               <a href="#" class="w-full text-center">Why We Do It</a>
-               <a href="#" class="w-full text-center">Who We Are</a>
-               <a href="#" class="w-full text-center">Certified Training</a>
-               <a href="#" class="w-full py-3 text-center rounded-full tracking-wide uppercase bg-epicGreen">Let's Talk</a>
+              <a href="#" class="text-epicBlue hover:text-epiclightBlue opacity-15">What We've Done</a>
+              <a href="https://pab-ns.github.io/epic/why1.html" class="text-epicBlue hover:text-epiclightBlue">Why We Do It</a>
+              <a href="https://pab-ns.github.io/epic/who1.html" class="text-epicBlue hover:text-epiclightBlue">Who We Are</a>
+              <a href="https://training.epicagile.com.au/w/au/upcoming/" target="_blank" class="text-epicBlue hover:text-epiclightBlue">Certified Training</a>
             </div>
-          </div>
-    </nav>
+       </div>
+       <!-- right button -->
+        <div class="hidden lg:flex items-center space-x-6">
+          <a href="https://pab-ns.github.io/epic/#contact-form">
+          <button class="bg-epicGreen hover:bg-epiclightBlue transition-all duration-300 text-white py-3 px-7 rounded-full text-sm font-bold uppercase items-center">
+              <span>Let's Talk</span>
+            </button>
+          </a>  
+        </div>
+
+        <!-- HAMBURGER ICON BUTTON -->
+         <button class="block hamburger lg:hidden focus:outlines-none" id="menu-btn" type="button">
+             <span class="hamburger-top"></span>
+             <span class="hamburger-middle"></span>
+             <span class="hamburger-bottom"></span>
+         </button>
+
+   </div>
+   <!-- MOBILE MENU -->
+    <div id="menu" class="absolute hidden p-6 rounded-md bg-epicBlue left-6 right-6 top-20 z-30">
+      <div class="flex flex-col items-center justify-center w-full space-y-6 text-white text-base text-center">
+         <span class="w-full text-sm opacity-50">What We Do</span>
+         <a href="https://pab-ns.github.io/epic/academy/" class="w-full">EPiC Academy</a>
+         <a href="https://pab-ns.github.io/epic/masterclasses/" class="w-full">EPiC Masterclasses</a>
+         <a href="#" class="w-full opacity-15">EPiC Accelerators</a>
+         <a href="#" class="w-full opacity-15">EPiC Ways of Working</a>
+         <a href="#" class="w-full pt-6 border-t border-gray-400 opacity-15">What We've Done</a>
+         <a href="https://pab-ns.github.io/epic/why1.html" class="w-full">Why We Do It</a>
+         <a href="https://pab-ns.github.io/epic/who1.html" class="w-full">Who We Are</a>
+         <a href="https://training.epicagile.com.au/w/au/upcoming/" target="_blank" class="w-full">Certified Training</a>
+         <a href="https://pab-ns.github.io/epic/#contact-form" class="w-full py-3 rounded-full tracking-wide uppercase bg-epicGreen font-bold">Let's Talk</a>
+      </div>
+    </div>
+</nav>
 
     <!-- Hero -->
     <section class="container max-w-6xl mx-auto input-mobile-padding my-20">
