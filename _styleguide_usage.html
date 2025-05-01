@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Rock+Salt&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/menu.js" defer></script>
+    
+    <title>Styleguide Usage – EPiC Web</title>
+
+</head>
+<body>
+<!-- nav placeholder -->
+<div class="w-full mx-auto py-10 bg-epicShell mb-20">
+  <div class="container mx-auto text-center font-bold uppercase">Navbar Placerholder</div>
+</div>
+
+<!-- title -->
+<div class="container mx-auto text-center text-6xl font-extrabold my-20 text-blue-600 underline font-neutral">Web Styleguide Usage</div>
+
+
+<!-- video carousel testimonials -->
+<section class="container max-w-6xl mx-auto my-20 input-mobile-padding">
+  <h2 class="text-center text-epicBlue input-section-title mb-14">Real stories, real impact</h2>
+  <div class="relative overflow-x-hidden ">
+    <!-- slider -->
+    <div class="relative flex items-center">
+        <div id="carousel" class="relative scrollbar-hide flex w-full snap-x snap-mandatory gap-8 overflow-x-auto overscroll-x-contain">
+        <!-- slider 1 -->
+        <div class="carousel-item relative flex aspect-video w-full md:w-1/2 shrink-0 snap-start flex-col justify-end overflow-hidden rounded-xl shadow-lg hover:opacity-80 transition-all duration-500">
+            <a href="#">
+            <img src="images/thumbs/thumb-afterpay.jpg" alt="Tina Yards" class="absolute inset-0 h-full w-full object-cover" />
+            </a>
+        </div>
+        <!-- slider 2 -->
+        <div class="carousel-item relative flex aspect-video w-full md:w-1/2 shrink-0 snap-start flex-col justify-end overflow-hidden rounded-xl shadow-lg hover:opacity-80 transition-all duration-500">
+            <a href="#">
+            <img src="images/thumbs/thumb-ANU.jpg" alt="Tina Yards" class="absolute inset-0 h-full w-full object-cover" />
+            </a>
+        </div>
+        <!-- slider 3 -->
+        <div class="carousel-item relative flex aspect-video w-full md:w-1/2 shrink-0 snap-start flex-col justify-end overflow-hidden rounded-xl shadow-lg hover:opacity-80 transition-all duration-500">
+            <a href="#">
+            <img src="images/thumbs/thumb-BA.jpg" alt="Tina Yards" class="absolute inset-0 h-full w-full object-cover" />
+            </a>
+        </div>                 
+        </div>
+    </div>
+
+    <!-- arrow buttons -->
+        <div class="flex justify-center gap-x-4 mt-10">
+        <button id="prev" aria-label="Previous" class="bg-epiclightBlue hover:bg-epicBlue transition-all duration-200 inline-flex h-12 w-12 items-center justify-center rounded-full shadow-md">
+            <svg viewBox="0 0 20 20" fill="#FFF" class="h-5 w-5">
+              <path fill-rule="evenodd" d="M11.78 5.22a.75.75 0 0 1 0 1.06L8.06 10l3.72 3.72a.75.75 0 1 1-1.06 1.06l-4.25-4.25a.75.75 0 0 1 0-1.06l4.25-4.25a.75.75 0 0 1 1.06 0Z" clip-rule="evenodd" />
+            </svg>
+        </button>
+        <button id="next" aria-label="Next" class="bg-epiclightBlue hover:bg-epicBlue transition-all duration-200 inline-flex h-12 w-12 items-center justify-center rounded-full shadow-md">
+            <svg viewBox="0 0 20 20" fill="#FFF" class="h-5 w-5">
+            <path fill-rule="evenodd" d="M8.22 5.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.06-1.06L11.94 10 8.22 6.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
+            </svg>
+        </button>
+        </div>
+</div>  
+
+
+
+</section>
+
+
+<!-- TEXT + VIDEO -->
+<section class="container mx-auto max-w-6xl input-mobile-padding my-40">
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-20 items-center">
+             <!-- left -->
+             <div class="flex flex-col space-y-5 text-center md:text-left">
+              <h1 class="input-page-title">Page Title</h1>
+              <p class="input-lead-text text-gray-700">
+                We’re here to build organisations that thrive in change, adaptable, innovative, and commercially sharp. We unlock outcomes and work shoulder-to-shoulder.
+            </p>
+            </div>
+    <!-- right -->
+    <iframe class="max-w-4xl w-full mx-auto aspect-video rounded-xl shadow-lg" src="https://www.youtube.com/embed/mr15Xzb1Ook" allowfullscreen></iframe>
+
+  </div>
+</section>
+
+<!-- TILES -->
+ <section class="container mx-auto max-w-6xl input-mobile-padding my-40">
+  <h2 class="input-section-title text-center text-epicBlue mb-10">Section Title</h2>  
+  <!-- grid -->
+  <div class="grid gap-3 md:grid-cols-3">
+                
+    <!-- tile-1 -->
+    <div class="flex flex-col p-6 mx-auto text-center space-y-4">
+     <div class="text-7xl mb-4">💡</div>
+      <span class="text-sm text-epicGreen">Build what people love</span>
+       <h5 class="text-2xl capitalize text-epicBlue" >Product Mastery</h5>
+         <div>
+          <button class="bg-epiclightBlue hover:bg-epicBlue transition-all duration-200 text-white py-3 px-7 rounded-full capitalize items-center text-sm">
+             <a href="#"><span>Build excellence</span></a>
+          </button>
+         </div>
+    </div>   
+    <!-- tile-1 -->
+    <div class="flex flex-col p-6 mx-auto text-center space-y-4">
+      <div class="text-7xl mb-4">💡</div>
+       <span class="text-sm text-epicGreen">Build what people love</span>
+        <h5 class="text-2xl capitalize text-epicBlue" >Product Mastery</h5>
+          <div>
+           <button class="bg-epiclightBlue hover:bg-epicBlue transition-all duration-200 text-white py-3 px-7 rounded-full capitalize items-center text-sm">
+              <a href="#"><span>Build excellence</span></a>
+           </button>
+          </div>
+     </div>   
+    <!-- tile-1 -->
+    <div class="flex flex-col p-6 mx-auto text-center space-y-4">
+      <div class="text-7xl mb-4">💡</div>
+       <span class="text-sm text-epicGreen">Build what people love</span>
+        <h5 class="text-2xl capitalize text-epicBlue" >Product Mastery</h5>
+          <div>
+           <button class="bg-epiclightBlue hover:bg-epicBlue transition-all duration-200 text-white py-3 px-7 rounded-full capitalize items-center text-sm">
+              <a href="#"><span>Build excellence</span></a>
+           </button>
+          </div>
+     </div>                
+                     
+ </div>    
+ </section>
+
+ <!-- SIDE by SIDE -->
+  <section class="container mx-auto max-w-4xl space-y-16 input-mobile-padding my-40">
+    <!-- top -->
+    <div class="flex flex-col md:flex-row items-center">
+      <!-- content -->
+      <div class="md:w-1/2">
+          <h3 class="text-epicBlue input-secondary-section-title">Stop struggling with...</h3>
+          <br>
+          <p class="text-gray-700 input-lead-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit esse amet soluta. Illo ratione placeat corporis autem necessitatibus omnis illum? </p>
+      </div>
+        <!-- img -->
+        <img src="images/Group 7.png" alt="" class="mx-auto w-[90%] md:w-[50%] pt-10 md:pt-0 pl-0 md:pl-8">
+  </div>
+  <div class="flex flex-col md:flex-row-reverse space-x-5 space-y-4 md:space-y-0 items-center">
+      <!-- content -->
+      <div class="md:w-1/2">
+          <h3 class="text-epicBlue input-secondary-section-title">Choose your journey</h3>
+          <br>
+          <p class="text-gray-700 input-lead-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit esse amet soluta. Illo ratione placeat corporis autem necessitatibus omnis illum? </p>
+      </div>
+        <!-- img -->
+        <img src="images/Group 31.png" alt="" class="mx-auto text-center mix-blend-darken md:pr-28 w-[60%] md:w-[40%]">
+  </div> 
+  </section>
+
+<!-- Features List -->
+<section class="container mx-auto max-w-4xl input-mobile-padding my-40">
+  <h2 class="input-section-title text-center text-epicBlue mb-10">Features...</h2>  
+
+  <div class="grid grid-cols-2 md:gap-6 md:px-5">
+            
+    <!-- awesome 1 -->
+    <div class="flex flex-col p-4 md:p-6 mx-auto text-left">
+     <div class="text-3xl mb-5">🎯</div>
+     <h5 class="text-xl md:text-2xl capitalize text-epicBlue mb-2 font-semibold">Outcome-Obsessed</h5>
+      <span class="text-sm md:text-base text-gray-700">Everything we do ties back to real, measurable business outcomes — increased revenue, improved flow, and smarter decisions.</span>
+    </div> 
+
+    <!-- awesome 2 -->
+    <div class="flex flex-col p-4 md:p-6 mx-auto text-left">
+     <div class="text-3xl mb-5">🔗</div>
+     <h5 class="text-xl md:text-2xl capitalize text-epicBlue mb-2 font-semibold">Embedded, Not External</h5>
+      <span class="text-sm md:text-base text-gray-700">We don’t drop in and drop slides. Epic works alongside your teams to co-create, coach, and embed lasting change.</span>
+    </div>   
+    
+    <!-- awesome 3 -->
+    <div class="flex flex-col p-4 md:p-6 mx-auto text-left">
+     <div class="text-3xl mb-5">💆🏻</div>
+     <h5 class="text-xl md:text-2xl capitalize text-epicBlue mb-2 font-semibold">Human-Centred</h5>
+      <span class="text-sm md:text-base text-gray-700">People are the heartbeat of every transformation. We help shape mindsets, behaviours, and cultures that make change stick.</span>
+    </div>              
+    </div>   
+
+</section>  
+
+  <!-- Full text block -->
+  <section class="py-10 bg-epiclightBlue">
+    <div class="container max-w-4xl mx-auto input-mobile-padding">
+        <h3 class="font-semibold tracking-wide text-center text-white px-10 md:px-40 md:py-12 text-2xl">This is a full width section text. For messages <br> We build organisations that adapt, deliver, and thrive. We blend deep expertise with a hands-on, human approach. </h3>
+    </div>
+</section>  
+
+  <!-- box text -->
+  <section class="container mx-auto max-w-4xl input-mobile-padding my-40">
+      <div class="bg-epicBlue rounded-2xl">
+          <h3 class="font-semibold tracking-wide text-center text-white p-10 md:px-20 md:py-12 md:text-xl"> This works as a divider <br> With 10+ years of experience transforming APAC’s largest brands, we brings depth, pragmatism, and energy to make change stick </h2>
+      </div>
+  </section>
+
+  <!-- services hero  -->
+  <section class="bg-epicOrange input-full-w-section">
+    <div class="container max-w-6xl mx-auto input-mobile-padding space-y-5">
+        <p class="font-rocksalt text-white text-center">Level up your Big Planning Game</p>
+        <h3 class="text-white input-section-title text-center">Tame the Chaos<br>
+        Plan Like a Pro.</h3>
+    </div>
+</section>      
+
+  
+
+
+<!-- footer placeholder -->
+<div class="w-full mx-auto py-10 bg-epicBlue mt-20">
+  <div class="container mx-auto text-center font-bold text-white uppercase">Footer Placerholder</div>
+</div>
+
+
+
+</body>
+</html>
