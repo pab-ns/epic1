@@ -1,7 +1,7 @@
 const courses = [
   {
     name: "Team Facilitator",
-    enrolLink: "https://training.epicagile.com.au/w/au/courses/",
+    enrolLink: "https://training.epicagile.com.au/w/au/courses/103-epic-scrum-master-agile-team-facilitator/2612",
     img: "https://pab-ns.github.io/epic1/images/pathway/DELIVERY_Team-Facilitator.png",
     desc: "Design and lead effective events & workshops that achieve outcomes and enable development & learning.",
   },
