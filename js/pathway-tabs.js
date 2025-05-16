@@ -69,7 +69,7 @@ const panelData = [
     },
     {
       name: "AgilityHealth Facilitator",
-      enrolLink: "https://training.epicagile.com.au/w/au/courses/",
+      enrolLink: "https://training.epicagile.com.au/w/au/courses/37-agilityhealth-certified-facilitator",
       img: "https://pab-ns.github.io/epic1/images/pathway/FOUNDATIONS_AgilityHealth.png",
     },
     {
@@ -79,7 +79,7 @@ const panelData = [
     },
     {
       name: "Leading Scaled Agile",
-      enrolLink: "https://training.epicagile.com.au/w/au/courses/90-epic-tribe-crew-foundations",
+      enrolLink: "https://training.epicagile.com.au/w/au/courses/",
       img: "https://pab-ns.github.io/epic1/images/pathway/FOUNDATIONS_Leading-Scaled-Agile.png",
     },
   ],
