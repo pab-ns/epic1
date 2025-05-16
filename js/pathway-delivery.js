@@ -13,7 +13,7 @@ const courses = [
   },
   {
     name: "Lean Portfolio Management",
-    enrolLink: "https://training.epicagile.com.au/w/au/courses/",
+    enrolLink: "https://training.epicagile.com.au/w/au/courses/104-safe-lean-portfolio-management/2773",
     img: "https://pab-ns.github.io/epic1/images/pathway/DELIVERY_Lean-Portfolio-Manager.png",
     desc: "Plan dynamically and be flexible enough to adjust initiatives and budgets as the market changes. Get the tools to work effectively in remote environments with distributed teams.",
   },
