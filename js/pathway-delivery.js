@@ -7,7 +7,7 @@ const courses = [
   },
   {
     name: "Delivery Manager",
-    enrolLink: "https://training.epicagile.com.au/w/au/courses/",
+    enrolLink: "https://training.epicagile.com.au/w/au/courses/108-epic-delivery-manager",
     img: "https://pab-ns.github.io/epic1/images/pathway/DELIVERY_delivery-Manager.png",
     desc: "Enable teams to deliver on value, to quality and within constraints; with adaptive planning, improved flow and greater transparency.",
   },
