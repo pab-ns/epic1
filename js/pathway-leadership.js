@@ -13,7 +13,7 @@
     },
     {
       name: "Leadership Agility",
-      enrolLink: "https://training.epicagile.com.au/w/au/courses/",
+      enrolLink: "https://training.epicagile.com.au/w/au/courses/111-epic-leadership-agility",
       img: "https://pab-ns.github.io/epic1/images/pathway/LEADERSHIP_Leadership-Agility.png",
       desc: "Transform leadership style to play a pivotal role in navigating change, driving innovation, and fostering a culture of continual learning.",
     },
