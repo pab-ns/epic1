@@ -13,7 +13,7 @@
     },
     {
       name: "AgilityHealth Facilitator",
-      enrolLink: "https://training.epicagile.com.au/w/au/courses/",
+      enrolLink: "https://training.epicagile.com.au/w/au/courses/37-agilityhealth-certified-facilitator/",
       img: "https://pab-ns.github.io/epic1/images/pathway/FOUNDATIONS_AgilityHealth.png",
       desc: "This certification workshop prepares participants to facilitate and deliver the TeamHealth Retrospective and certifies them to be AgilityHealth Facilitators.",
     },
@@ -25,7 +25,7 @@
     },
     {
       name: "Leading Scaled Agile",
-      enrolLink: "https://training.epicagile.com.au/w/au/courses/90-epic-tribe-crew-foundations",
+      enrolLink: "https://training.epicagile.com.au/w/au/courses/",
       img: "https://pab-ns.github.io/epic1/images/pathway/FOUNDATIONS_Leading-Scaled-Agile.png",
       desc: "Equip Leaders to successfully support and operate a Crew/Tribe. Focusing on the foundations of tribes, roles, how they operate and measure success.",
     },
