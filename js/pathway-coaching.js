@@ -19,7 +19,7 @@
     },
     {
       name: "Expert Coach",
-      enrolLink: "https://training.epicagile.com.au/w/au/courses/",
+      enrolLink: "https://training.epicagile.com.au/w/au/courses/112-epic-expert-coach",
       img: "https://pab-ns.github.io/epic1/images/pathway/COACHING_Expert-Coach.png",
       desc: "This course equips you with the ability to facilitate impactful sessions, coach with confidence, mentor with purpose, and teach with clarity.",
     },
