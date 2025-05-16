@@ -10,12 +10,12 @@ const panelData = [
     {
       img: "https://pab-ns.github.io/epic1/images/pathway/PRODUCT_Human-Centered-Design.png",
       name: "Human Centered Design",
-      enrolLink: "https://training.epicagile.com.au/w/au/courses/"
+      enrolLink: "https://training.epicagile.com.au/w/au/courses/109-epic-human-centered-design"
     },
     {
       img: "https://pab-ns.github.io/epic1/images/pathway/PRODUCT_Product-Manager.png",
       name: "Product Manager",
-      enrolLink: "https://training.epicagile.com.au/w/au/courses/"
+      enrolLink: "https://training.epicagile.com.au/w/au/courses/107-epic-product-manager"
     },
   ],
 //   delivery
@@ -27,7 +27,7 @@ const panelData = [
   },
   {
     name: "Delivery Manager",
-    enrolLink: "https://training.epicagile.com.au/w/au/courses/",
+    enrolLink: "https://training.epicagile.com.au/w/au/courses/108-epic-delivery-manager",
     img: "https://pab-ns.github.io/epic1/images/pathway/DELIVERY_delivery-Manager.png",
   },
   {
@@ -50,7 +50,7 @@ const panelData = [
     },
     {
       name: "Leadership Agility",
-      enrolLink: "https://training.epicagile.com.au/w/au/courses/",
+      enrolLink: "https://training.epicagile.com.au/w/au/courses/111-epic-leadership-agility",
       img: "https://pab-ns.github.io/epic1/images/pathway/LEADERSHIP_Leadership-Agility.png",
     },
   ],
@@ -79,7 +79,7 @@ const panelData = [
     },
     {
       name: "Leading Scaled Agile",
-      enrolLink: "https://training.epicagile.com.au/w/au/courses/",
+      enrolLink: "https://training.epicagile.com.au/w/au/courses/110-epic-leading-scaled-agile",
       img: "https://pab-ns.github.io/epic1/images/pathway/FOUNDATIONS_Leading-Scaled-Agile.png",
     },
   ],
@@ -102,7 +102,7 @@ const panelData = [
     },
     {
       name: "Expert Coach",
-      enrolLink: "https://training.epicagile.com.au/w/au/courses/",
+      enrolLink: "https://training.epicagile.com.au/w/au/courses/112-epic-expert-coach",
       img: "https://pab-ns.github.io/epic1/images/pathway/COACHING_Expert-Coach.png",
     },
   ]
