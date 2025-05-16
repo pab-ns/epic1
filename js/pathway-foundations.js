@@ -25,7 +25,7 @@
     },
     {
       name: "Leading Scaled Agile",
-      enrolLink: "https://training.epicagile.com.au/w/au/courses/",
+      enrolLink: "https://training.epicagile.com.au/w/au/courses/110-epic-leading-scaled-agile",
       img: "https://pab-ns.github.io/epic1/images/pathway/FOUNDATIONS_Leading-Scaled-Agile.png",
       desc: "Equip Leaders to successfully support and operate a Crew/Tribe. Focusing on the foundations of tribes, roles, how they operate and measure success.",
     },
